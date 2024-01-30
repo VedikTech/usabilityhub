@@ -1,0 +1,139 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:sans-serif;
+}
+
+.speakericon{
+width:20px;
+height:20px;
+
+
+}
+.nav1{
+    border:2px solid rgb(20, 173, 150);
+background-color:rgb(20, 173, 150);
+color:white;
+display:flex;
+font-size:18px;
+padding:10px;
+justify-content:center;
+font-family:'Times New Roman', Times, serif;
+}
+.navbar{
+    display:flex;
+    margin-top:25px;
+    font-family: Times ;
+   
+   
+}
+#smile{
+    width:40px;
+    height:40px;
+    margin-right:10px;
+}
+.content{
+    text-decoration:none;
+    color:black;
+    font-size:18px;
+   margin-left:30px;
+
+    
+}
+.logo{
+    display:flex;
+   font-size:30px;
+   margin-left:190px;
+   margin-right: 210px;
+   font-weight:bold;
+   color:rgb(52, 51, 51)
+}
+.signin{
+    border:1px solid #2294ed; 
+    padding:10px;
+    border-radius:10px;
+}
+.signup{
+    border:1px solid #2294ed; 
+    padding:10px;
+    border-radius:10px;
+    background-color: #2294ed; 
+    color:white;
+    
+}
+.main{
+    display:flex;
+    justify-content:center;
+    margin-top:30px;
+    column-gap:100px;
+    
+}
+.headding{
+    font-size:50px;
+    font-weight:bolder;
+    margin-top:150px;
+    color:#183b56;
+}
+.paragraph{
+    font-size: 1.1em;
+    color:#384e61;
+    margin-top:20px;
+}
+.gettingstarted{
+    height:40px;
+    width:180px;
+border-radius: 10px;
+background-color:  #2294ed; 
+ border:1px solid #2294ed; 
+ color:white;
+ margin-top:40px;
+ font-size:16px;
+}
+.asset{
+    width:40vw;
+    height:450px;
+    margin-top:30px;
+}
+.companyintro{
+    text-align:center;
+    font-size:18px;
+    margin-top:40px;
+    
+    color:#183b56;
+    font-family:'Poppins', 'sans-serif';
+}
+.images{
+    display: flex;
+    justify-content: center;
+    column-gap:50px;
+    
+    
+}
+.companylogo{
+    width:120px;
+    
+    
+}
+.amazon{
+    margin-top:40px;
+}
+.box{
+    width:80px;
+   margin-top:25px;
+    
+}
+.google{
+    margin-top:40px;
+}
+.task{
+    margin-top:50px;
+}
+.airtable{
+    margin-top:45px;
+}
+.godad{
+    margin-top:50px;
+}
+.asna{
+    margin-top:35px;
+}
