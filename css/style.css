@@ -22,12 +22,17 @@ font-size:18px;
 padding:10px;
 justify-content:center;
 font-family:'Times New Roman', Times, serif;
+position:sticky;
+top:0;
+
 }
 .navbar{
     display:flex;
     margin-top:25px;
     font-family: Times ;
     flex-wrap:wrap;
+   
+    
    
    
 }
@@ -94,6 +99,11 @@ background-color:  #2294ed;
  color:white;
  margin-top:40px;
  font-size:16px;
+}
+.gettingstarted:hover{
+    background-color:rgb(20, 173, 150);
+    border:1px solid rgb(20, 173, 150);
+    
 }
 .asset{
     width:40vw;
@@ -209,7 +219,7 @@ a.button{
     background-repeat:no-repeat;
     background-size:contain;
     margin-left:400px;
-   z-index:-1;
+  
    opacity:0.1;
    rotate: 90deg;
    margin-top: -190px;
