@@ -32,10 +32,11 @@ top:0;
     font-family: Times ;
     flex-wrap:wrap;
    
-    
+    justify-content:center;
    
    
 }
+
 #smile{
     width:40px;
     height:40px;
@@ -52,7 +53,7 @@ top:0;
 .logo{
     display:flex;
    font-size:30px;
-   margin-left:190px;
+  
    margin-right: 210px;
    font-weight:bold;
    color:rgb(52, 51, 51)
@@ -214,15 +215,21 @@ a.button{
 
     
 }
+
 .bgimg{
     
     background-repeat:no-repeat;
     background-size:contain;
-    margin-left:400px;
+   
+  
   
    opacity:0.1;
    rotate: 90deg;
    margin-top: -190px;
+}
+.bggimg{
+    display:flex;
+    justify-content: center;
 }
 .testpara{
     margin-bottom:30px;
