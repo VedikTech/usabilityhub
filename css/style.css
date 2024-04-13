@@ -16,7 +16,7 @@
 
 .nav1 {
     border: 2px solid rgb(20, 173, 150);
-    background-color: rgb(165, 19, 178);
+    background-color: rgb(20, 173, 150);
     color: white;
     display: flex;
     font-size: 18px;
@@ -220,7 +220,8 @@
     width: 70%;
     column-gap: 40px;
     text-align: center;
-    position:absolute;
+ 
+   
     margin-left: 280px;
 
 
@@ -248,19 +249,18 @@ a.button {
 
     background-repeat: no-repeat;
     background-size: contain;
-
-
+position:absolute;
+top:800px;
+right:350px;
 
     opacity: 0.1;
     rotate: 90deg;
-    margin-top: -190px;
+    
+
+    
 }
 
-.bggimg {
-    display: flex;
-    justify-content: center;
-  
-}
+
 
 .testpara {
     margin-bottom: 30px;
@@ -277,13 +277,14 @@ a.button {
 }
 
 .professional {
-    margin-top: 100px;
+    margin-top: 150px;
     display: flex;
     justify-content: center;
     column-gap: 90px;
     font-size: 18px;
     letter-spacing: 1px;
     line-height: 30px;
+    
 
 
 }
