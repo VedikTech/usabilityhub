@@ -53,6 +53,9 @@
 
 
 }
+.content:hover{
+    color:#2294ed;
+}
 
 .logo {
     display: flex;
@@ -76,6 +79,10 @@
     background-color: #2294ed;
     color: white;
 
+}
+.signup:hover{
+    color:white;
+    background-color: rgb(20, 173, 150);
 }
 
 .main {
@@ -232,7 +239,7 @@
 
 }
 
-a.button {
+.button {
     border: 1px solid #2294ed;
     padding: 10px;
     border-radius: 10px;
@@ -244,6 +251,9 @@ a.button {
 
 
 }
+
+
+
 
 .bgimg {
 
