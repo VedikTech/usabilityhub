@@ -27,6 +27,10 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+.navitems{
+  display: flex;
+  
+}
 #smile {
   width: 40px;
   height: 40px;
