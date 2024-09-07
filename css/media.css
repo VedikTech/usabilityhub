@@ -1,153 +1,121 @@
-@media (max-width:600px){
-    html,body{
-        overflow-x:hidden ;
-    }
-    .navitems{
-        display: none;
-    }
-    .nav1 p{
-        font-size: 12px;
+@media (max-width: 600px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  .navitems {
+    display: none;
+  }
+  .nav1 p {
+    font-size: 12px;
+  }
+  .logo {
+    font-size: 20px;
+  }
+  #smile {
+    height: 20px;
+    width: 20px;
+  }
+  .main {
+    flex-direction: column;
+    align-items: center;
+    margin-top: -40px;
+    text-align: center;
+    row-gap: 40px;
+  }
 
-    }
-    .logo{
-        font-size: 20px;
-    }
-    #smile{
-        height:20px;
-        width:20px;
-    }
-    .main{
-        flex-direction:column;
-       align-items: center;
-       margin-top:-40px;
-       text-align: center;
-       row-gap: 40px;
-      
-    }
-   
-      
-     
-    
-      .headding {
-        font-size: 44px;
-       
-      }
-     
-     
-      .asset {
-        width: 60vw;
-        height: 350px;
-       
-      }
-      .companyintro {
-        text-align: center;
-        font-size: 18px;
-       
-      }
-      .images {
-        display: flex;
-       
-       flex-direction: column;
-       align-items: center;
-      }
-     
-      
-      .user_reserch > h1 {
-       
-        font-size: 25px;
-        text-align: center;
-      
-      }
-   
-    
-      .testcontainer {
-       flex-direction: column;
-       
-       margin:0;
-       margin-left:50px;
-       
-      
-      
-    
-      }
-     
-     
-     
-      .professionalimg {
-        width: 300px;
-        height: 300px;
-      }
-      .professional {
-       
+  .headding {
+    font-size: 44px;
+  }
+
+  .asset {
+    width: 60vw;
+    height: 350px;
+  }
+  .companyintro {
+    text-align: center;
+    font-size: 18px;
+  }
+  .images {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .user_reserch > h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .testcontainer {
+    flex-direction: column;
+
+    margin: 0;
+    margin-left: 50px;
+  }
+
+  .professionalimg {
+    width: 300px;
+    height: 300px;
+  }
+  .professional {
     flex-direction: column;
     align-items: center;
     padding-left: 20px;
-    padding-right:20px;
-        
-       
-      }
-      .Marketer{
-        flex-direction: row-reverse;
-      }
-      
-      
-      .posibility {
-       flex-direction: column;
-       row-gap: 20px;
-       align-items: center;
-      }
-     
-      .panel {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        row-gap: 30px;
-        padding-left: 10px;
-        padding-right: 10px;
-      }
-      .imgfour {
-        width: 400px;
-        height: 400px;
-      }
-     
-      .panelbutton {
-        display: flex;
-        column-gap: 20px;
-        margin-top: 50px;
-      }
-      .click1 {
-      
-      margin-left: 40px;
-        padding-left: 10px;
-        padding-right: 10px;
-        font-size: 13px;
-      }
-      .click2 {
-      
+    padding-right: 20px;
+  }
+  .Marketer {
+  }
+
+  .posibility {
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+  }
+
+  .panel {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .imgfour {
+    width: 400px;
+    height: 400px;
+  }
+
+  .panelbutton {
+    display: flex;
+    column-gap: 20px;
+    margin-top: 50px;
+  }
+  .click1 {
+    margin-left: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 13px;
+  }
+  .click2 {
+    font-size: 13px;
+  }
+  .panel2 {
+    font-size: 18px;
+  }
+
+  .starttesting {
+    font-size: 18px;
+  }
+  .footer1 {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
     
-        font-size: 13px;
-      }
-      .panel2 {
-        font-size: 18px;
-      }
-      
-      .starttesting {
-       font-size: 18px;
-      }
-      .footer1 {
-       flex-direction: column;
-       align-items: center;
-       row-gap: 30px;
-       margin-bottom: 300px;
-      }
-     
-      .Usability {
-    
-       margin-right: 10px;
-      
-      
-      }
-     
-     
-      
+  }
+
+  .Usability {
+    margin-right: 10px;
+  }
 }
