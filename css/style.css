@@ -343,25 +343,33 @@
 .footer2 {
   display: flex;
   background-color: #b7cddf;
-  column-gap: 20px;
+  column-gap: 40px;
   justify-content: center;
   padding-top: 20px;
   padding-bottom: 20px;
   align-items: center;
   font-size: 14px;
-  flex-wrap: wrap;
+  
 }
 .policy {
+  display: flex;
+  column-gap: 20px;
+}
+.img1{
+  display: flex;
+  column-gap: 20px;
+}
+.policy a{
   color: #183b56;
   text-decoration: none;
+
 }
 .policy:hover {
   color: #2294ed;
 }
-.img1 {
+.img1 img {
   width: 25px;
   height: 25px;
+  
 }
-.diff {
-  margin-left: 130px;
-}
+
