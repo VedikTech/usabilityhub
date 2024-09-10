@@ -30,6 +30,11 @@
 .navitems{
   display: flex;
 }
+.navlogo i{
+  font-size: 20px;
+  color:rgb(20, 173, 150);
+ 
+}
 #smile {
   width: 40px;
   height: 40px;
