@@ -177,10 +177,13 @@
 .testcontainer {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   width: 70%;
   column-gap: 40px;
-  text-align: center;
-  margin-left: 280px;
+  text-align: center;              
+margin:auto;
+ 
 }
 .testheading {
   font-size: 20px;
@@ -201,6 +204,7 @@
   position: absolute;
   top: 800px;
   right: 350px;
+
   opacity: 0.1;
   rotate: 90deg;
 }
@@ -217,6 +221,16 @@
   height: 550px;
 }
 .professional {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  column-gap: 90px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 30px;
+  flex-wrap: wrap;
+}
+.marketer {
   margin-top: 150px;
   display: flex;
   justify-content: center;

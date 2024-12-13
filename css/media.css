@@ -1,4 +1,4 @@
-@media (max-width: 600px) {
+@media (max-width: 767px) {
   html,
   body {
     overflow-x: hidden;
@@ -21,6 +21,7 @@
   .main {
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     margin-top: -40px;
     text-align: center;
     row-gap: 40px;
@@ -52,28 +53,40 @@
 
   .testcontainer {
     flex-direction: column;
-
-    margin: 0;
-    margin-left: 50px;
+     align-items: center;
+    margin:auto;
+    
+   
+    
   }
 
   .professionalimg {
     width: 300px;
     height: 300px;
   }
+  .bgimg {
+   
+    
+    opacity: 0;
+   
+  }
   .professional {
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     padding-left: 20px;
     padding-right: 20px;
   }
-  .Marketer {
+  .marketer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .posibility {
     flex-direction: column;
     row-gap: 20px;
     align-items: center;
+    margin-top:80px;
   }
 
   .panel {
@@ -129,4 +142,59 @@
     margin-bottom:400px;
    row-gap: 20px;
   }
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    overflow-x: hidden;
+  }
+  .navitems {
+    display: none;
+
+  }
+  .navbar{
+    justify-content: space-around;
+  }
+.logo {
+  font-size:25px;
+}
+#smile {
+  width: 30px;
+  height: 30px;
+  margin:0px;
+}
+.main {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -40px;
+  text-align: center;
+  row-gap: 40px;
+}
+.images{
+  
+    display: flex;
+  
+    margin:auto;
+    width:70%;
+    flex-wrap:wrap;
+    margin-top:30px;
+ 
+}
+.testcontainer{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.companyintro{
+    margin-top:160px;
+}
+
+.bgimg {
+   
+    
+  opacity: 0;
+ 
+}
 }
