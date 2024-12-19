@@ -1,13 +1,58 @@
 @media (max-width: 767px) {
   html,
   body {
+    margin:0;
+    padding:0;
     overflow-x: hidden;
   }
-  .navitems {
+  .navitembox{
     display: none;
+ 
+   
   }
-
+  .navbar{
+    display: flex;
+  justify-content: space-between;
+  padding-left:20px;
+  padding-right:20px;
+  }
+  .navitems {
+    flex-direction: column;
+    position: fixed;
+    top: 100px;
+   right:0px;
+    width:100vw;
+    height:100%;
+ align-items: center;
+ row-gap:40px;
+    background-color:rgb(20, 173, 150);
   
+    padding-top:100px;
+
+    z-index: 10;
+    
+
+  }
+  .content{
+    color:white;
+  }
+  .navitembox.active{
+    display: flex;
+    
+  }
+ 
+ #navbar{
+    display: block;
+  
+  }
+  #cross{
+    display: none;
+
+  }
+  .signin{
+    border:2px solid rgb(32, 129, 239)
+  }
+                                                                                                                          
   .nav1 p {
     font-size: 12px;
   }
@@ -19,16 +64,24 @@
     width: 20px;
   }
   .main {
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
-    margin-top: -40px;
+ row-gap:50px;
     text-align: center;
-    row-gap: 40px;
+    
   }
-
+  .gettingstarted {
+    height: 40px;
+    width: 40vw;
+   
+  }
+  .companyintro {
+    margin-top:80px;
+  }
   .headding {
     font-size: 44px;
+    margin-top:-10px;
   }
 
   .asset {
@@ -41,7 +94,6 @@
   }
   .images {
     display: flex;
-
     flex-direction: column;
     align-items: center;
   }
@@ -55,9 +107,6 @@
     flex-direction: column;
      align-items: center;
     margin:auto;
-    
-   
-    
   }
 
   .professionalimg {
@@ -65,8 +114,6 @@
     height: 300px;
   }
   .bgimg {
-   
-    
     opacity: 0;
    
   }
@@ -113,16 +160,38 @@
     padding-right: 10px;
     font-size: 13px;
   }
+ 
   .click2 {
     font-size: 13px;
   }
   .panel2 {
     font-size: 18px;
+    
   }
+  .list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
 
   .starttesting {
     font-size: 18px;
   }
+  .panelbutton{
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .Usability{
+    font-size:30px;
+  }
+ 
   .footer1 {
     flex-direction: column;
     align-items: center;
@@ -139,9 +208,17 @@
   .footer2{
     display: flex;
     flex-direction: column;
-    margin-bottom:400px;
+  
    row-gap: 20px;
   }
+  body.no-scroll {
+    overflow: hidden !important; /* Block scroll */
+    position: fixed; /* Prevents accidental repositioning */
+    width: 100%; /* Ensure full width */
+    height: 100%; /* Lock the height */
+}
+
+
 }
 
 
@@ -149,28 +226,88 @@
   body {
     overflow-x: hidden;
   }
+  .navitembox{
+    display: none;
+ 
+   
+  }
+ .navbar{
+  display: flex;
+  justify-content: space-between;
+  padding-left:20px;
+  padding-right:20px;
+ }
+  
   .navitems {
+    flex-direction: column;
+    position: fixed;
+    top: 100px;
+   right:0px;
+    width:100vw;
+    height:100%;
+ align-items: center;
+ row-gap:40px;
+    background-color:rgb(20, 173, 150);
+  
+    padding-top:100px;
+
+    z-index: 10;
+    
+
+  }
+  .content{
+    color:white;
+  }
+  .navitembox.active{
+    display: flex;
+    
+  }
+ 
+ #navbar{
+    display: block;
+  
+  }
+  #cross{
     display: none;
 
   }
-  .navbar{
-    justify-content: space-around;
+  .signin{
+    border:2px solid rgb(32, 129, 239)
   }
 .logo {
   font-size:25px;
 }
+
 #smile {
   width: 30px;
   height: 30px;
   margin:0px;
 }
 .main {
-  flex-direction: column;
+  flex-direction: column-reverse;
   align-items: center;
   justify-content: center;
-  margin-top: -40px;
+
   text-align: center;
-  row-gap: 40px;
+  row-gap: 90px;
+}
+.headding {
+  
+  margin-top:-10px;
+} 
+
+.gettingstarted {
+  height: 40px;
+  width: 40vw;
+ 
+}
+.Usability{
+  font-size:30px;
+}
+.asset {
+  width: 70vw;
+  height: 450px;
+  margin-top: 70px;
 }
 .images{
   
@@ -186,6 +323,8 @@
   display: flex;
  justify-content: center;
  align-items: center;
+
+ min-width:50%;
 }
 .companyintro{
     margin-top:160px;
@@ -197,4 +336,33 @@
   opacity: 0;
  
 }
+.professional ,.chartmogule {
+flex-direction: column-reverse;
+justify-content: center;
+align-items: center;
+row-gap:50px;
+}
+.marketer{
+row-gap: 50px;
+}
+.posibility{
+  row-gap: 30px;
+  column-gap: 30px;
+}
+.panel ,.footer1 {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+flex-direction: column;
+row-gap: 30px;
+}
+body.no-scroll {
+  overflow: hidden !important;
+  position: fixed; 
+  width: 100%; 
+  height: 100%; 
+}
+
+
 }
